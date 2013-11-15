@@ -1,0 +1,101 @@
+/* ==========================================================================
+  Carousel
+ ========================================================================== */
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  margin-bottom: 2em;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+
+.swipe a.arrow {
+  display: none;
+  position: absolute;
+  top: 45%;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.swipe a.arrow.active {
+  display: block; 
+}
+
+.swipe a.arrow:before {
+  opacity: 0.2;
+  color: #000000; 
+}
+
+.swipe a.arrow.icon-leftarrow {
+  left: 2.5%; 
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 30px solid #000;
+  border-bottom: 15px solid transparent;
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.swipe a.arrow.icon-rightarrow {
+  right: 2.5%; 
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-left: 30px solid #000;
+  border-bottom: 15px solid transparent;
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.swipe nav {
+  position: absolute;
+  left: 2.5%;
+  top: 2.5%;
+}
+
+.swipe nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.swipe nav li {
+  float: left;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background: #383838;
+  margin: 12px 12px 0 0;
+  cursor: pointer;
+  display: block;
+}
+
+.swipe nav li.active {
+  background-color: #ffffff;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #cccccc));
+  background-image: -webkit-linear-gradient(top, white, #cccccc);
+  background-image: -moz-linear-gradient(top, white, #cccccc);
+  background-image: -ms-linear-gradient(top, white, #cccccc);
+  background-image: -o-linear-gradient(top, white, #cccccc);
+  background-image: linear-gradient(top, white, #cccccc); 
+}
+
+.swipe h2.caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  padding: 0.5em;
+  margin-bottom: 0;
+  font-size: 0.8125em;
+}

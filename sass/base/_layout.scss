@@ -1,0 +1,115 @@
+/* ==========================================================================
+   Layout Styles
+   ========================================================================== */
+  
+.content {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+  
+.copyright {
+  font-size: 0.8125em;
+  margin: 0;
+  text-align: center;
+  }
+
+.footer-nav {
+  margin-bottom: 14%;
+  }
+  
+.footer-nav ul {
+  border-top: 1px solid #666;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+.footer-nav li {
+  border-bottom: 1px solid #666;
+  font-size: 0.8125em;
+  }
+  
+.footer-nav a {
+  display: block;
+  padding: 4% 0;
+  }
+   
+.nav-icon {
+  cursor: pointer;
+  display: block;
+  height: 56px;
+  padding: 17px 0 0 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 12px;
+  width: 56px;
+  }
+
+.nav-icon .icon-bar {
+  background: $dark;
+  display: block;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  height: 3px;
+  line-height: 1;
+  margin: 3px auto;
+  overflow: hidden;
+  width: 18px;
+  }
+
+.primary-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+.primary-nav a {
+  background: $dark;
+  border-top: 1px solid #444;
+  color: $gray;
+  display: block;
+  padding: 6% 20px;
+  }
+  
+.primary-nav a:hover {
+  background: #222;
+  text-decoration: none;
+  }
+  
+.site-footer {
+  background: $dk_gray;
+  color: #aaa;
+  padding: 14% 0;
+  }
+  
+.site-footer h1,
+.site-footer h2,
+.site-footer h3,
+.site-footer h4 {
+  color: $off_white;
+  }
+  
+.site-footer a,
+.site-footer a:link,
+.site-footer a:visited,
+.site-footer a:active {
+  color: $off_white;
+  }
+  
+.site-header .logo {
+  display: block;
+  margin-right: 56px;
+  padding: 20px;
+  }
+  
+.site-header .logo img {
+  display: block;
+  max-height: 44px;
+  }
+  
+.js .site-nav {
+  display: none;
+  }
+   

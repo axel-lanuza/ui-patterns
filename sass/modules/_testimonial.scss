@@ -1,0 +1,56 @@
+.testimonial {
+  background: $off_white;
+  padding: 0 20px 4% 20px;
+  text-align: center;
+  }
+  
+.testimonial blockquote {
+  background: #ddd;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 20px;
+  position: relative;
+  text-align: left;
+  top: -20px;
+  }
+
+.testimonial blockquote:after { 
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+  border-width: 20px 20px 0 0;
+  border-style: solid;
+  border-color: #ddd transparent;
+  display: block;
+  width: 0;
+  }
+  
+.testimonial p {
+  margin: 0;
+  }
+  
+.testimonial .author {
+  color: $dark;
+  font-size: 0.8125em;
+  margin-top: -10px;
+  }
+    
+@media only screen and (min-width: 950px) {
+  .testimonial {
+    padding: 0 40px;
+    }
+    
+  .testimonial blockquote {
+    padding: 3% 4%;
+    }
+
+  .testimonial blockquote:after {
+    right: 80px;
+    }
+    
+  .testimonial .author {
+    font-size: 1em;
+    margin: 0;
+    }
+}

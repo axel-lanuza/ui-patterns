@@ -1,0 +1,217 @@
+html,
+button,
+input,
+select,
+textarea {
+  background: $white;
+  color: $dk_gray;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1.5; 
+  }
+  
+body {
+  margin: 0 auto;
+  max-width: 1920px;
+  }
+  
+a {
+  color: $dark;
+  text-decoration: none;
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  }
+  
+a:link {
+  color: $dark;
+  text-decoration: none;
+  }
+  
+a:visited {
+  color: $dark;
+  text-decoration: none;
+  }
+  
+a:hover {
+  color: $dark;
+  text-decoration: underline;
+  }
+  
+a:active {
+  color: $dark;
+  text-decoration: none;
+  }
+
+::-moz-selection {
+    background: $lt_gray;
+    color: $dark;
+  text-shadow: none !important;
+  }
+
+::selection {
+    background: $lt_gray;
+    color: $dark;
+  text-shadow: none !important;
+  }
+  
+input,
+button,
+select,
+textarea {
+  background-color: $white;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  }
+
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+input.text,
+textarea {
+  -webkit-appearance: none;
+  border: 1px solid $lt_gray;
+  padding: 12px;
+  }
+
+select {
+  border: 1px solid $lt_gray;
+  padding: 12px;
+  }
+
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="email"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus,
+input.text:focus,
+textarea:focus,
+select:focus {
+  border-color: #666;
+  }
+  
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: $lt_gray;
+  }
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: $lt_gray;
+  }
+  
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: $lt_gray;
+  }
+  
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: $lt_gray;
+  }
+  
+label {
+  color: $dark;
+  }
+  
+a.btn,
+input.btn,
+div.btn,
+input[type="submit"],
+button {
+  -webkit-appearance: none;
+  background-color: $dark;
+  border: none;
+  color: $lt_gray;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  padding: 12px 26px;
+  font-weight: bold;
+  text-decoration: none;
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  }
+  
+a.btn:hover,
+input.btn:hover,
+div.btn:hover,
+input[type="submit"]:hover,
+button:hover {
+    background-color: #222;
+  text-decoration: none;
+  }
+
+input.btn:focus,
+input[type="submit"]:focus,
+button:focus {
+    background-color: #222;
+  }
+  
+a.btn.disabled,
+input.btn.disabled,
+div.btn.disabled,
+input[type="submit"].disabled,
+button.disabled {
+  background-color: $off_white;
+  color: $lt_gray;
+  cursor: default;
+  }
+
+textarea {
+    resize: vertical;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $dark;
+  font-weight: normal;
+  line-height: 1.4;
+  }
+  
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  }
+  
+h1 { font-size: 3.375em; }
+h2 { font-size: 2.25em; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1em; }
+  
+img, object, embed {
+  height: auto !important;
+  max-width: 100%;
+  }
+  

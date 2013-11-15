@@ -1,0 +1,61 @@
+/* ==========================================================================
+   Screen size 950 and up
+   ========================================================================== */
+
+@media only screen and (min-width: 950px) {
+  .content {
+    max-width: 1300px;
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+    
+  .footer-nav {
+    padding-top: 4%;
+    }
+    
+  .footer-nav li {
+    margin-right: 8%;
+    width: 28%;
+    }
+    
+  .footer-nav li:nth-child(odd) {
+    clear: none;
+    }
+    
+  .footer-nav li:nth-child(3n+1) {
+    clear: both;
+    }
+    
+  .footer-nav li:nth-child(3n) {
+    margin-right: 0;
+    }
+    
+  .primary-nav {
+    border-left: 1px solid #444;
+    border-right: 1px solid #444;
+    margin: 0 auto;
+    max-width: 1220px;
+    }
+  
+  .primary-nav a {
+    padding: 12% 40px;
+    }
+    
+  .primary-nav p {
+    display: block;
+    }
+    
+  .site-footer {
+    padding: 4% 0;
+    }
+    
+  .site-header {
+    padding: 2% 40px;
+    margin: 0 auto;
+    max-width: 1300px;
+    }
+    
+  .site-nav {
+    background: $dark;
+    }
+}

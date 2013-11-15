@@ -1,0 +1,203 @@
+.search {
+  background: $off_white;
+  padding: 14% 0;
+  }
+  
+.search .content {
+  max-width: 900px;
+  }
+  
+.search h2 {
+  font-size: 1.5em;
+  margin-top: 0;
+  }
+
+.search .dropdown {
+  margin-bottom: 10%;
+  }
+  
+.search .dropdown .icon-down-open {
+  float: right;
+  font-size: 0.8125em;
+  border-left: 1px solid #444;
+  padding: 0 6% 0 5%;
+  }
+
+.search .dropdown .button {
+  background: $dark;
+  color: $lt_gray;
+  cursor: pointer;
+  display: block;
+  padding: 5% 0 5% 8%;
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  }
+  
+.search .dropdown.active .button {
+  background: #222;
+  }
+  
+.search .dropdown ul {
+  background: $dark;
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+.search .dropdown li {
+  color: $lt_gray;
+  cursor: pointer;
+  border-top: 1px solid #444;
+  padding: 5% 8%;
+  }
+  
+.search #search-hotels,
+.search #search-attractions,
+.search #search-restaurants {
+  display: none;
+  }
+
+.search .search-form {
+  text-align: center;
+  }
+  
+.search .form-field {
+  margin-bottom: 4%;
+  text-align: left;
+  }
+  
+.search button {
+  margin-top: 4%;
+  }
+  
+.search label {
+  display: none;
+  }
+  
+.search input,
+.search select {
+  width: 100%;
+  }
+
+@media only screen and (min-width: 500px) {
+  .search {
+    padding: 8% 0;
+    }
+    
+  .search button {
+    margin: 0;
+    }
+    
+  .search .dropdown {
+    margin-bottom: 6%;
+    }
+    
+  .search .dropdown .button {
+    padding: 3% 0 3% 6%;
+    }
+    
+  .search .dropdown .icon-down-open {
+    padding: 0 4% 0 3%;
+    }
+    
+  .search .dropdown li {
+    padding: 3% 6%;
+    }
+    
+  .search .form-field {
+    margin-bottom: 2%;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+  .search h2 {
+    text-align: center;
+    }
+    
+  .search .dropdown .button {
+    display: none;
+    padding: 2% 0 2% 4%;
+    }
+    
+  .search .dropdown .icon-down-open {
+    padding: 0 3% 0 2.5%;
+    }
+    
+  .search .dropdown ul {
+    background: none;
+    border-bottom: 1px solid $lt_gray;
+    display: block !important;
+    }
+    
+  .search .dropdown li {
+    border: none;
+    color: $gray;
+    float: left;
+    font-size: 1.25em;
+    margin: 0 2em -1px 0;
+    padding: 0.25em 0;
+    }
+    
+  .search .dropdown li.active {
+    border-bottom: 1px solid $dark;
+    color: $dark;
+    }
+    
+  .search label {
+    display: block;
+    float: left;
+    margin-right: 2%;
+    padding: 12px 0;
+    width: 20%;
+    }
+    
+  .search input,
+  .search select {
+    float: left;
+    width: 78%;
+    }
+    
+  .search input::-webkit-input-placeholder,
+  .search textarea::-webkit-input-placeholder {
+    color: $white;
+    }
+
+  .search input:-moz-placeholder,
+  .search textarea:-moz-placeholder {
+    color: $white;
+    }
+    
+  .search input::-moz-placeholder,
+  .search textarea::-moz-placeholder {
+    color: $white;
+    }
+    
+  .search input:-ms-input-placeholder,
+  .search textarea:-ms-input-placeholder {
+    color: $white;
+    }
+}
+
+@media only screen and (min-width: 950px) {
+  .search {
+    padding: 4% 0;
+    }
+    
+  .search .dropdown {
+    margin: 0;
+    }
+    
+  .search h2 {
+    margin-bottom: 6%;
+    }
+    
+  .search .search-form {
+    background: $white;
+    border: 1px solid $lt_gray;
+    border-top: none;
+    padding: 8% 6% 6% 6%;
+    }
+}

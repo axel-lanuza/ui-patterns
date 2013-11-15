@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Search Mod</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="CodeGreen Development">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="application-name" content="">
+    <meta name="msapplication-TileColor" content="">
+    <meta name="msapplication-TileImage" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="scripts/modernizr.js"></script>
+  </head>
+  
+  <body>
+  
+    <header class="site-header clearfix">
+  
+      <a href="/" class="logo"><img src="http://ima.gs/333/444/none/250x49.png" alt=""></a>
+
+    </header> <!-- /site-header -->
+        
+    <div class="search"> <!-- this collapses by default on internal pages, except when searching? -->
+      
+      <div class="content">
+        <h2>Find the company best suited for your group</h2>
+        
+        <div class="dropdown">
+          <span class="button clearfix"><span class="title">Buses</span> <i class="icon-down-open"></i></span>
+          <ul class="clearfix">
+            <li class="active" rel="search-one">Busses</li>
+            <li rel="search-hotels">Hotels</li>
+            <li rel="search-attractions">Attractions</li>
+            <li rel="search-restaurants">Restaurants</li>
+          </ul> <!-- /clearfix -->
+        </div> <!-- /dropdown -->
+      
+        <div id="search-one" class="search-form">
+          
+          <div class="form-field clearfix">
+            <label for="search-one-type">Bus Type</label>
+            <select id="search-one-type">
+              <option>All Bus Types</option>
+              <option>Charter Bus</option>
+              <option>Minibus</option>
+              <option>School bus</option>
+              <option>Entertainer</option>
+              <option>Executive</option>
+              <option>Limo Bus</option>
+              <option>Party Bus</option>
+              <option>Trolley</option>
+              <option>Double Decker</option>
+              <option>Van</option>
+              <option>Transit Bus</option>
+              <option>Tour Operator</option>
+            </select>
+          </div> <!-- /form-field -->
+            
+          <div class="form-field required clearfix">
+            <label for="search-one-location">Location *</label>
+            <input type="text" id="search-one-location" placeholder="Location"> <!-- ajax autocomplete -->
+          </div> <!-- /form-field --> 
+          
+          <div class="form-field clearfix">
+            <label for="search-one-company">Company Name</label>
+            <input type="text" id="search-one-company" placeholder="Company Name">
+          </div> <!-- /form-field -->
+          
+          <button>Search</button>
+        </div> <!-- /search-one -->
+        
+        <div id="search-hotels" class="search-form">
+          hotel search goes here
+        </div> <!-- /search-hotels -->
+        
+        <div id="search-attractions" class="search-form">
+          attraction search goes here
+        </div> <!-- /search-attractions -->
+        
+        <div id="search-restaurants" class="search-form">
+          restaurant search goes here
+        </div> <!-- /search-restaurants -->
+        
+      </div> <!-- /content -->
+      
+    </div> <!-- /search -->
+        
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="scripts/search_mod.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+/* ==========================================================================
+   Screen size 500 and up
+   ========================================================================== */
+
+@media only screen and (min-width: 500px) {   
+  .footer-nav ul {
+    border: none;
+    }
+    
+  .footer-nav li {
+    float: left;
+    width: 46%;
+    }
+    
+  .footer-nav li:nth-child(odd) {
+    clear: both;
+    margin-right: 8%;
+    }
+        
+  .primary-nav a {
+    padding: 4% 20px;
+    }
+    
+  .site-footer {
+    padding: 8% 0;
+    }
+}

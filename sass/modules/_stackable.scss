@@ -1,0 +1,81 @@
+.stackable {
+  border-bottom: 1px solid #ddd;
+  }
+  
+.stackable h2 {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 14% 20px;
+  }
+  
+.stackable .icon {
+  display: block;
+  text-align: center;
+  }
+   
+.stackable .step {
+  border-top: 1px solid #ddd;
+  padding: 14% 20px;
+  }
+
+.stackable h3 {
+  margin: 1em 0 0.5em 0;
+  }
+  
+.stackable p {
+  margin: 0;
+  }
+  
+@media only screen and (min-width: 500px) {
+  .stackable .icon {
+    float: left;
+    margin-right: 2em;
+    }
+    
+  .stackable h3 {
+    margin-top: 0;
+    }
+
+  .stackable h2 {
+    padding: 8% 20px;
+    }
+    
+  .stackable .step {
+    padding: 8% 20px;
+    }
+}
+
+@media only screen and (min-width: 950px) {
+  .stackable {
+    border: none;
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 0 40px;
+    }
+    
+  .stackable h2 {
+    padding: 6% 0;
+    text-align: center;
+    }
+    
+  .stackable h3 {
+    margin-top: 2em;
+    }
+    
+  .stackable .icon {
+    float: none;
+    margin: 0;
+    }
+    
+  .stackable .step {
+    border: none;
+    float: left;
+    padding: 0;
+    margin-right: 8%;
+    width: 19%;
+    }
+    
+  .stackable .step.last {
+    margin-right: 0;
+    }
+}
