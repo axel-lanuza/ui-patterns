@@ -3,21 +3,21 @@ var YBCarousel = YBCarousel || {};
 // Temporary hard-coded data for gallery example
 var gallery = [
   {
-    "src": "http://ima.gs/333/444/fff/one-948x633.png",
+    "src": "http://ima.gs/333/444/fff/one-1200x800.png",
     "caption": "One",
     "link": "http://www.goat.com"
   },
   {
-    "src": "http://ima.gs/444/555/fff/two-948x633.png",
+    "src": "http://ima.gs/444/555/fff/two-1200x800.png",
     "caption": "Two",
     "link": "http://www.madbreadband.com"
   },
   {
-    "src": "http://ima.gs/555/666/fff/three-948x633.png",
+    "src": "http://ima.gs/555/666/fff/three-1200x800.png",
     "caption": "Three - no link"
   },
   {
-    "src": "http://ima.gs/666/777/fff/no_caption-948x633.png",
+    "src": "http://ima.gs/666/777/fff/no_caption-1200x800.png",
     "link": "http://www.earwolf.com"
   }
 ];
