@@ -1,6 +1,4 @@
-UI
-==
+ui-patterns
+===========
 
-Common CodeGreen Front End UI Patterns
-
-[Link to the index page with all visual examples](http://codegreen.github.io/UI/)
+A selection of common responsive UI solutions
